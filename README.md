@@ -1,6 +1,7 @@
 # Analysis of single-cell RNA-seq data: Normalization, dimensionality reduction, clustering, and lineage inference
 
-# Diya Das (@diyadas), Davide Risso (@drisso), and Kelly Street (@kstreet13)
+# Instructor(s) name(s) and contact information
+Diya Das (@diyadas), Davide Risso (@drisso), and Kelly Street (@kstreet13)
 
 # Workshop Description
 
