@@ -9,7 +9,7 @@ This workshop will be presented as a lab session (brief introduction followed by
 that instructs participants in a Bioconductor workflow for the analysis of single-cell RNA-sequencing data, in three parts:
 1. dimensionality reduction that accounts for zero inflation, over-dispersion, and batch effects
 2. cell clustering that employs a resampling-based approach resulting in robust and stable clusters
-3. lineage trajectory analysis that uncovers developmental processes and is flexible to the input
+3. lineage trajectory analysis that uncovers continuous, branching developmental processes
 
 We will provide worked examples for lab sessions, and a set of stand-alone notes in this repository.
 
