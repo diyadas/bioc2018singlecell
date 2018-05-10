@@ -51,15 +51,16 @@ This will be a hands-on workshop, in which each student, using their laptop, wil
 
 * describe the goals of single-cell RNA-seq analysis 
 * identify the main steps of a typical single-cell RNA-seq analysis
-* evaluate the results of each step in terms of model fit and biological significance
-* carry out a complete analysis of own dataset
+* evaluate the results of each step in terms of model fit 
+* synthesize results of successive steps to interpret biological significance and develop biological models
+* apply this workflow to carry out a complete analysis of other single-cell RNA-seq datasets
 
 ## Learning objectives
 
-* compute and interpret low-dimensional representation of single-cell data
+* compute and interpret low-dimensional representations of single-cell data
 * identify and remove sources of technical variation from the data
-* identify sub-population of cells (clusters) and evaluate their robustness
-* infer a lineage trajectory in differentiating cells
-* order cells by developmental "pseudo-time"
-* identify genes that play an important role in differentiating cells 
+* identify sub-populations of cells (clusters) and evaluate their robustness
+* infer lineage trajectories corresponding to differentiating cells
+* order cells by developmental "pseudotime"
+* identify genes that play an important role in cell differentiation 
 
