@@ -1,49 +1,49 @@
 # Analysis of single-cell RNA-seq data: Normalization, dimensionality reduction, clustering, and lineage inference
 
 # Instructor(s) name(s) and contact information
-Diya Das (@diyadas), Davide Risso (@drisso), and Kelly Street (@kstreet13)
+Diya Das (@diyadas, diyadas@berkeley.edu), Davide Risso (@drisso), and Kelly Street (@kstreet13)
 
 # Workshop Description
 
-Along with the topic of your workshop, include how students can expect
-to spend their time. For the description may also include information
-about what type of workshop it is (e.g. instructor-led live demo, lab,
-lecture + lab, etc.). Instructors are strongly recommended to provide
-completely worked examples for lab sessions, and a set of stand-alone
-notes that can be read and understood outside of the workshop.
+This workshop will be presented as a lab session (brief introduction followed by hands-on coding)
+that instructs participants in a Bioconductor workflow for the analysis of single-cell RNA-sequencing data, in three parts:
+1. dimensionality reduction that accounts for zero inflation and over-dispersion common in single-cell RNA-seq
+2. cell clustering that employs a resampling-based approach resulting in robust and stable clusters
+3. lineage trajectory analysis that uncovers developmental processes and is flexible to the input
+
+We will provide worked examples for lab sessions, and a set of stand-alone notes in this repository.
+
+Note to organizers: A previous version of this workshop was well-attended at BioC 2017,
+but the tools presented have been significantly updated for
+interoperability, and we have been receiving many requests to provide an
+updated workflow. We plan to incorporate feedback from this workshop into a published document.
 
 ## Pre-requisites
 
-List any workshop prerequisites, for example:
-
-* Basic knowledge of R syntax
-* Familiarity with the GenomicRanges class
-* Familiarity with xyz vignette (provide link)
-
-List relevant background reading for the workshop, including any
-theoretical background you expect students to have.
-
-* List any textbooks, papers, or other reading that students should be
-  familiar with. Include direct links where possible.
+We expect basic knowledge of R syntax. Some familiarity with S4 objects may be helpful, but not required.
+More importantly, participants should be familiar with the concept and design of single-cell RNA-sequencing experiments.
 
 ## Workshop Participation
 
-Describe how students will be expected to participate in the workshop.
+Participants should bring a laptop on which they have administrative permissions, and have installed the Bioconductor packages listed below.
 
 ## _R_ / _Bioconductor_ packages used
 
-List any _R_ / _Bioconductor_ packages that will be explicitly covered.
+1. _zinbwave_ : https://bioconductor.org/packages/release/bioc/html/zinbwave.html
+2. _clusterExperiment_: https://bioconductor.org/packages/release/bioc/html/clusterExperiment.html
+3. _slingshot_: https://github.com/kstreet13/slingshot (will be submitted to Bioconductor shortly)
 
 ## Time outline
 
-An example for a 45-minute workshop:
+2 hr workshop:
 
-| Activity                     | Time |
-|------------------------------|------|
-| Packages                     | 15m  |
-| Package Development          | 15m  |
-| Contributing to Bioconductor | 5m   |
-| Best Practices               | 10m  |
+| Activity                                   | Time |
+|--------------------------------------------|------|
+| Intro to packages                          | 15m  |
+| zinbwave (dimensionality reduction)        | 30m  |
+| clusterExperiment (clustering)             | 30m  |
+| slingshot (lineage trajectory analysis)    | 30m  |
+| Questions / extensions                     | 15m  |
 
 # Workshop goals and objectives
 
