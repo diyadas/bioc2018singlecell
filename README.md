@@ -7,7 +7,7 @@ Diya Das (@diyadas, diyadas@berkeley.edu), Davide Risso (@drisso), and Kelly Str
 
 This workshop will be presented as a lab session (brief introduction followed by hands-on coding)
 that instructs participants in a Bioconductor workflow for the analysis of single-cell RNA-sequencing data, in three parts:
-1. dimensionality reduction that accounts for zero inflation and over-dispersion common in single-cell RNA-seq
+1. dimensionality reduction that accounts for zero inflation and over-dispersion common in single-cell RNA-seq and allows for the incorporation of sample- and gene-level covariates
 2. cell clustering that employs a resampling-based approach resulting in robust and stable clusters
 3. lineage trajectory analysis that uncovers developmental processes and is flexible to the input
 
